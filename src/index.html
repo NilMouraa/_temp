@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AppTeste</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <checkbox-group [(ngModel)]="orderBy">
+    <input type="checkbox" value="rating"> Rating<br/>
+    <input type="checkbox" value="date"> Date<br/>
+    <input type="checkbox" value="watches"> Watch count<br/>
+    <input type="checkbox" value="comments"> Comment count<br/>
+</checkbox-group>
+</body>
+</html>
